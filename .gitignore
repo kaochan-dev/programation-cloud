@@ -1,2 +1,5 @@
 .mistral-pre-push.diff
 .mistral-pre-push.diff
+webhook-events.log
+webhook.out
+pipeline.log
