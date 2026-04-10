@@ -3,3 +3,5 @@
 webhook-events.log
 webhook.out
 pipeline.log
+.config/
+main
