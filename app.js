@@ -12,6 +12,7 @@ app.get('/api/info', (req, res) => {
   res.json({
     date: new Date().toISOString(),
     hostname: os.hostname()
+    message: 'demo ci/cd updated'
   });
 });
 
