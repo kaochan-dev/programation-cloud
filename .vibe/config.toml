@@ -10,6 +10,6 @@ tool_timeout_sec = 120
 name = "octopus"
 transport = "stdio"
 command = "bash"
-args = ["-lc", "OCTOPUS_URL='http://localhost:8080' OCTOPUS_API_KEY='API-XXXXXXXXXXXX' node /root/mcp-octopus/index.js"]
+args = ["-lc", "OCTOPUS_URL='http://localhost:8080' OCTOPUS_API_KEY='$OCTOPUS_API_KEY' node /root/mcp-octopus/index.js"]
 startup_timeout_sec = 15
 tool_timeout_sec = 120
