@@ -4,4 +4,4 @@ services:
     container_name: demo-app
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - "3000:3000"  # Required for local development - webpack-dev-server serves React app on 3000
